@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Student Introduction{% endblock %}
+
+{% block content %}
+    <div class="card">
+        <h2>Hello, {{ name }}!</h2>
+        <p><strong>Age:</strong> {{ age }}</p>
+        <p><strong>Course:</strong> {{ course }}</p>
+    </div>
+{% endblock %}
